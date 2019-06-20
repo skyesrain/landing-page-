@@ -1,0 +1,149 @@
+*{
+  box-sizing: border-box;
+}
+.container{
+    margin:0;
+    padding:0;
+}
+/*header**/
+header {
+    background:rgb(46, 84, 145);
+   
+    padding:0;
+    width:100%;
+    margin:0;
+    font-size: 18px;
+    border-bottom: red 3px solid;
+    min-height:80px;
+    line-height:1;
+    margin-left -5px;
+        
+}
+header a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size:18px;
+    color:#ffffff;
+    text-align: center;
+   
+}
+}
+header ul{
+    margin:0;
+    padding:0;
+    list-style: none;
+    
+   }
+
+
+header li{
+    float: left;
+    display:inline-block;
+    padding: 0px 20px 0px 20px;
+    text-align: center;
+}
+header #branding {
+    float: left;
+    margin-left:100px;
+    font-family: "Times New Roman", Times, serif;
+    color:#ffffff;
+}
+}
+header #brading h1{
+    margin:0;
+   
+    
+}
+header .menu{
+    float: right;
+    margin-top:15px;
+    margin-right:120px;
+}
+.menu a:hover{
+    background:light blue;
+    color:red;
+}
+@media only screen and (max-width:800px){
+    nav ul
+    header nav,
+    header nav li,
+    header#branding{
+        height:-30px;
+        flex-direction: column;
+        text-align: center;
+        color: black;
+        width:100%;
+    }
+}
+/*showcase**/
+#showcase{
+    min-height:700px;
+    background:url(background.jpg) no-repeat 0 110px;
+    margin-top:-110px;
+    opacity: 0.8px;
+    margin-bottom:-15px;
+}
+#showcase h1{
+    float: left;
+    margin-top:10%;
+    font-family:audiowide;
+    font-size:50px;
+/*button**/
+}
+.btn{
+  position: absolute;
+  top: 60%;
+  right: 50%;
+  background-color:red;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius:20px;
+}
+.btn:hover{
+    background:rgb(46, 84, 145);
+}
+
+
+/*footer**/
+.bottom{
+   background:rgb(46, 84, 145); 
+    padding:0px;
+    width:100%;
+    margin:0;
+    font-size: 18px;
+    border-top: red 3px solid;
+    min-height:80px;
+    line-height:1;
+    margin-right:auto;
+    margin-left:auto;
+}
+.bottom p{
+    font-size:20px;
+    font-family: sans-serif;
+    text-align: center;
+    color:#ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+

@@ -1,141 +1,123 @@
-*{
-  box-sizing: border-box;
+body{
+    padding:0;
+    background-color:#f4f4f4;
+    color:#555;
+    font-size:16px;
+    font-family:Arial, Helvetica, sans-serif;
+    line-height:1.6em;
+    margin: 0;
+
 }
 .container{
-    margin:0;
+    width:80%;
+    overflow: hidden;
+    margin:auto;
+  
+}
+/* header secion */
+#main-header{
+    background-color: coral;
+    color:#fff;
+    width: 100%;
+}
+/* nav section */
+#nav-bar{
+    background-color:#333;
     padding:0;
+    color:#fff;
 }
-/*header**/
-header {
-    background:rgb(46, 84, 145);
-   
-    padding:0;
-    width:100%;
-    margin:0;
-    font-size: 18px;
-    border-bottom: red 3px solid;
-    min-height:80px;
-    line-height:1;
-    margin-left -5px;
-        
-}
-header a{
-    text-transform: uppercase;
-    text-decoration: none;
-    font-size:18px;
-    color:#ffffff;
-    text-align: center;
-   
-}
-}
-header ul{
-    margin:0;
-    padding:0;
+#nav-bar ul{
+    padding: 0;
     list-style: none;
-    
-   }
 
+}
+#nav-bar li{
+    display: inline;
+}
 
-header li{
-    float: left;
-    display:inline-block;
-    padding: 0px 20px 0px 20px;
-    text-align: center;
+#nav-bar a{
+    color: #fff;
+    text-decoration:none;
+    padding:18px;
+    font-size:18px;
+
 }
-header #branding {
-    float: left;
-    margin-left:100px;
-    font-family: "Times New Roman", Times, serif;
-    color:#ffffff;
+
+h1{
+    text-transform: uppercase;
 }
-}
-header #brading h1{
-    margin:0;
-   
-    
-}
-header .menu{
-    float: right;
-    margin-top:15px;
-    margin-right:120px;
-}
-.menu a:hover{
-    background:light blue;
-    color:red;
-}
-@media only screen and (max-width:800px){
-    nav ul
-    header nav,
-    header nav li,
-    header#branding{
-        height:-30px;
-        flex-direction: column;
-        text-align: center;
-        color: black;
-        width:100%;
-    }
-}
-/*showcase**/
+/* showcase */
 #showcase{
-    min-height:700px;
-    background:url(background.jpg) no-repeat 0 110px;
-    margin-top:-110px;
-    opacity: 0.8px;
-    margin-bottom:-15px;
+    background-image: url("images/ethernet-490027_1920.jpg");
+    background-position:center  ;
+    height:400px;
+    background-size: cover; 
+    text-align: center;
+    margin-bottom: 30px;  
 }
 #showcase h1{
+color:#fff;
+font-size:40px;
+line-height: 1.6em;
+padding-top:30px;
+min-height: ;
+}
+#main{
     float: left;
-    margin-top:10%;
-    font-family:audiowide;
-    font-size:50px;
-/*button**/
-}
-.btn{
-  position: absolute;
-  top: 60%;
-  right: 50%;
-  background-color:red;
-  color: white;
-  font-size: 16px;
-  padding: 12px 24px;
-  border: none;
-  cursor: pointer;
-  border-radius:20px;
-}
-.btn:hover{
-    background:rgb(46, 84, 145);
+    width:50%;
+    background-color:#333;
+    box-sizing: border-box;
+    padding:0 30px;
+    margin-right:
+    
 }
 
-
-/*footer**/
-.bottom{
-   background:rgb(46, 84, 145); 
-    padding:0px;
-    width:100%;
-    margin:0;
-    font-size: 18px;
-    border-top: red 3px solid;
-    min-height:80px;
-    line-height:1;
-    margin-right:auto;
-    margin-left:auto;
+#side-bar{
+    float: left;
+    width:30%;
+    background-color:#333;
+    box-sizing: border-box;
+    padding:10px;
+    margin:20px;
+    overflow: hidden;
+     
 }
-.bottom p{
-    font-size:20px;
-    font-family: sans-serif;
+#foot{
+    background-color:#333;
     text-align: center;
-    color:#ffffff;
+    padding:20px;
+    color:#fff;
+    margin-top:40px;
+    position:absolute;
+    bottom:0px;
+    width:100%
+
 }
+@media (max-width:600px) {
+    
+    #main {
+          width:100%;
+          float:none;
+          margin:0;
+          padding:0;
+    
+    }
 
+    #side-bar {
+        width:100%;
+        float:none;
+        visibility: hidden;
+  }
 
+  #nav-bar li{
+    display:inline-block;
+    font-size:8px;
+  }
 
-
-
-
-
-
-
-
+  #main-header h1{
+    text-align: center;
+  }
+}
 
 
     

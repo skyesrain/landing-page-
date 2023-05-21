@@ -112,17 +112,28 @@ min-height: ;
   #nav-bar li{
     display:inline-block;
     font-size:8px;
+   
+    
   }
 
+  ul li{
+    padding:0;
+    margin:0;
+  }
   #main-header h1{
     text-align: center;
+ 
   }
+  
+
+#showcase h1{
+    font-size:20
 }
-
-
     
-
-
+img{
+    height:20px;;
+}
+}
 
 
 
